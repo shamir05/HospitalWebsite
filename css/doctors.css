@@ -1,0 +1,20 @@
+#doctor{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    grid-row-gap: 30px;
+}
+#dr{
+    height: 300px;
+    width: 400px;
+    color: white;
+    background-color: black;
+}
+.dprofile{
+    display: flex;
+    align-items: center;
+}
+.dprofile img{
+    height: 150px;
+    width: 150px;
+    border-radius: 80%;
+}

@@ -1,0 +1,12 @@
+#Departments {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-row-gap: 30px;
+
+}
+.dp{
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}

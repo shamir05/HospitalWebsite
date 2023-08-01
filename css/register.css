@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d3b55;
+}
+.container{
+    position: relative;
+    width: 80%;
+    background-color: #7c8184;
+    padding: 25px;
+    margin-top: 7vh;
+    border-radius: 10px;
+    box-shadow: 0 0 17px #7c8184;
+}
+.container header{
+    color: rgb(5, 4, 82);
+    font-size: 2.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+.container form{
+    margin-top: 8vh;
+}
+.form .inputs{
+    margin-top: 8vh;
+    width: 100%;
+}
+
+.inputs label{
+    font-size: 1.5rem;
+    color: rgb(16, 22, 78);
+}
+
+.form .inputs   :where(input, .options,.textarea, select){
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border-style: none;
+    border-radius: 7px;
+    margin-top: 6px;
+    padding: 0 10px;
+    font-size: 1rem;
+}
+.form .coloumn{
+    display: flex;
+    column-gap: 40px;
+}
+
+.form h3{
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: rgb(16, 22, 78);
+}
+
+.form .btn{
+    margin-top: 5vh;  
+}
+.button {
+    display: block;
+    background-color: #120c83;
+    font-size: 1.7rem;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 16px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.button:hover{
+    background-color: #242164;
+}
+.form .btn #reg{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 3vh;
+    font-size: 1.2rem;
+    color: #120c83;
+}
+
+.alertSuccess{
+    background-color: rgb(31 155 60);
+    color:#f7f7f7;
+    height: 4vh;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-items: center;
+}
+.alertDanger{
+    background-color: rgb(249 107 82);
+    color:#f7f7f7;
+    height: 4vh;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-items: center;
+}
+/* Responsive */
+@media only screen and (max-width: 500px){
+.coloumn{
+    flex-wrap: wrap;
+}
+}

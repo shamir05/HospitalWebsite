@@ -1,0 +1,9 @@
+.container{
+    background-color: rgb(49, 49, 49);
+
+}
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
